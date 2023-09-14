@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">thehuh</string>
+    <string name="actbtn">Button to first activity\n</string>
+    <string name="btn1">Api1</string>
+    <string name="btn2">Api2</string>
+    <string name="btnapi">Smile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="apibutton8">neko</string>
+    <string name="btnawoo">Awoo</string>
+    <string name="btnpat">pat</string>
+    <string name="btnhome">Home</string>
+</resources>
