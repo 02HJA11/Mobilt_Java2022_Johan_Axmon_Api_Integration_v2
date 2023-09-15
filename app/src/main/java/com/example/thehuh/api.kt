@@ -49,11 +49,8 @@ class api : AppCompatActivity() {
                     val parser = JSONParser()
                     val obj: Any? = parser.parse(res as String)
                     response = obj as JSONObject
-
                     val imageUrl = response["url"].toString()
-
                     Glide.with(this).load(imageUrl).into(imv)
-
                     Log.d("Hello", res.toString())
                 },
                 { err -> Log.d("Debug", err.toString()) }
@@ -69,11 +66,8 @@ class api : AppCompatActivity() {
                     val parser = JSONParser()
                     val obj: Any? = parser.parse(res as String)
                     response = obj as JSONObject
-
                     val imageUrl = response["url"].toString()
-
                     Glide.with(this).load(imageUrl).into(imv)
-
                     Log.d("Hello", res.toString())
                 },
                 { err -> Log.d("Debug", err.toString()) }
@@ -82,7 +76,6 @@ class api : AppCompatActivity() {
         }
 
         btn4.setOnClickListener(){
-
             val url2 = url + "awoo"
             val r = StringRequest(
                 Request.Method.GET, url2,
@@ -90,11 +83,8 @@ class api : AppCompatActivity() {
                     val parser = JSONParser()
                     val obj: Any? = parser.parse(res as String)
                     response = obj as JSONObject
-
                     val imageUrl = response["url"].toString()
-
                     Glide.with(this).load(imageUrl).into(imv)
-
                     Log.d("Hello", res.toString())
                 },
                 { err -> Log.d("Debug", err.toString()) }
@@ -105,18 +95,13 @@ class api : AppCompatActivity() {
         btn5.setOnClickListener(){
             val url2 = url + "neko"
             val r = StringRequest(
-
-
                 Request.Method.GET, url2,
                 { res ->
                     val parser = JSONParser()
                     val obj: Any? = parser.parse(res as String)
                     response = obj as JSONObject
-
                     val imageUrl = response["url"].toString()
-
                     Glide.with(this).load(imageUrl).into(imv)
-
                     Log.d("Hello", res.toString())
                 },
                 { err -> Log.d("Debug", err.toString()) }

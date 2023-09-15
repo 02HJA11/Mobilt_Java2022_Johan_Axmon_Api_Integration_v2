@@ -10,4 +10,9 @@
     <string name="btnawoo">Awoo</string>
     <string name="btnpat">pat</string>
     <string name="btnhome">Home</string>
+    <string name="buttonit">one liner</string>
+    <string name="buttonit2">observational</string>
+    <string name="buttonit3">Stereotype</string>
+    <string name="buttonit4">Wordplay</string>
+    <string name="buttonithome">Home screen</string>
 </resources>
