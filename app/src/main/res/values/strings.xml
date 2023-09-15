@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">thehuh</string>
-    <string name="actbtn">Button to first activity\n</string>
+    <string name="app_name">Funky api practice</string>
+    <string name="actbtn">Button to first activity</string>
     <string name="btn1">Api1</string>
     <string name="btn2">Api2</string>
     <string name="btnapi">Smile</string>
